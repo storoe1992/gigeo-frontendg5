@@ -9885,6 +9885,12 @@ h3 {
   list-style: none;
 }
 
+.contenedor__header {
+  height: 200px;
+  background-image: url(../img/image-banner.png);
+  background-position: right;
+}
+
 h1 {
   color: green;
 }
