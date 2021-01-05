@@ -9875,6 +9875,16 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.contenedor__nav {
+  display: flex;
+  padding: 0 100px;
+  justify-content: space-between;
+}
+.contenedor__nav__lista ul {
+  display: flex;
+  list-style: none;
+}
+
 h1 {
   color: green;
 }
