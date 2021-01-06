@@ -9889,6 +9889,8 @@ h3 {
   height: 200px;
   background-image: url(../img/image-banner.png);
   background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
