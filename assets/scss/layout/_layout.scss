@@ -8,6 +8,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(4, auto);
+  grid-gap: 20px;
 }
 .profile{
   display: flex;
