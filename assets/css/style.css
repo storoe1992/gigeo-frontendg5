@@ -9903,4 +9903,19 @@ h1 {
   grid-template-rows: repeat(4, auto);
 }
 
+.profile {
+  display: flex;
+  justify-content: space-between;
+}
+.profile__perfil {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.profile__perfil__img-perfil {
+  width: 200px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+
 /*# sourceMappingURL=style.css.map */
