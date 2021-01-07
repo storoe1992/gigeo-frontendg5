@@ -3,25 +3,19 @@
 @import 'main';
 @import 'footer';
 @import 'forms';
-
 .contenedor {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(4, auto);
-  grid-gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 20px;
 }
-.profile{
-  display: flex;
-  justify-content: space-between;
-  &__perfil{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
 
-    &__img-perfil{
-      width: 200px;
-      border-radius: 50%;
-      border: 1px solid #ccc;
+.profile {
+    display: flex;
+    justify-content: space-between;
+    &__perfil {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
-  }
 }

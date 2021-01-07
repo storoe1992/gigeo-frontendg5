@@ -9913,10 +9913,9 @@ h3 {
   flex-direction: row;
   align-items: center;
 }
-.profile__perfil__img-perfil {
-  width: 200px;
-  border-radius: 50%;
-  border: 1px solid #ccc;
+
+[class^=profile__buttons] {
+  color: #fff;
 }
 
 .contenedor__nav__lista i {
@@ -9930,6 +9929,38 @@ h3 {
 
 .contenedor__nav {
   padding: 20px 20px 10px;
+}
+
+.profile__buttons__mensaje {
+  background-color: #EF6461;
+  border: none;
+  padding: 10px 15px;
+}
+.profile__buttons__seguir {
+  background-color: #92DCE5;
+  border: none;
+  padding: 10px 15px;
+}
+
+.profile__perfil__img-perfil {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+.profile__perfil__nombres {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.profile__perfil__nombres h2 {
+  font-size: 22px;
+}
+.profile__perfil__nombres p {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
