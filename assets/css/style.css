@@ -9897,10 +9897,6 @@ h3 {
   width: 100%;
 }
 
-h1 {
-  color: green;
-}
-
 .contenedor {
   display: grid;
   grid-template-columns: 1fr;
@@ -9921,6 +9917,19 @@ h1 {
   width: 200px;
   border-radius: 50%;
   border: 1px solid #ccc;
+}
+
+.contenedor__nav__lista i {
+  padding: 20px 15px;
+  font-size: 20px;
+}
+
+.contenedor__nav__logo svg {
+  width: 200px;
+}
+
+.contenedor__nav {
+  padding: 20px 20px 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
