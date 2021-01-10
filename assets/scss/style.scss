@@ -7,9 +7,9 @@
 @import 'abstract/variables';
 // Base
 @import 'base/base';
-@import 'reset';
-@import 'typography';
-@import 'animation';
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/animation';
 // Layout
 @import 'layout/layout';
 // Components

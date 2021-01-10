@@ -9875,6 +9875,11 @@ h3 {
     border-color: #dee2e6;
   }
 }
+body, body * {
+  padding: 0;
+  margin: 0;
+}
+
 .contenedor__nav {
   display: flex;
   padding: 0 100px;
