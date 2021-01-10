@@ -9903,8 +9903,22 @@ body, body * {
   background-size: cover;
 }
 
+.contenedor__main h3 {
+  margin-bottom: 20px;
+}
+.contenedor__main-item {
+  margin-bottom: 20px;
+}
 .contenedor__main-item img {
   width: 100%;
+}
+.contenedor__main-item h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.contenedor__main-item p {
+  margin-top: 5px;
 }
 
 @media (max-width: 576px) {
