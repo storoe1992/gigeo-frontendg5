@@ -18,4 +18,25 @@
         flex-direction: row;
         align-items: center;
     }
+
+    &__buttons {
+        display: flex;
+        align-content: center;
+        align-items: center;
+    }
+}
+
+
+@media (max-width : 576px){
+    .profile{
+
+        justify-content: center;
+
+        &__buttons{
+            display: none;
+        }
+
+
+    }
+
 }

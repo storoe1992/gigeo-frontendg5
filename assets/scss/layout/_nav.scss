@@ -9,5 +9,12 @@
     }
 }
 
+@media (max-width : 576px){
+    
+    .contenedor__nav__lista ul li:not(:last-child){
+        display: none;
+    }
+}
+
 
 

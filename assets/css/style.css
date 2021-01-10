@@ -9885,6 +9885,11 @@ h3 {
   list-style: none;
 }
 
+@media (max-width: 576px) {
+  .contenedor__nav__lista ul li:not(:last-child) {
+    display: none;
+  }
+}
 .contenedor__header {
   height: 200px;
   background-image: url(../img/image-banner.png);
@@ -9897,6 +9902,11 @@ h3 {
   width: 100%;
 }
 
+@media (max-width: 576px) {
+  .contenedor__main__title {
+    text-align: center;
+  }
+}
 .contenedor {
   display: grid;
   grid-template-columns: 1fr;
@@ -9913,9 +9923,26 @@ h3 {
   flex-direction: row;
   align-items: center;
 }
+.profile__buttons {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
 
+@media (max-width: 576px) {
+  .profile {
+    justify-content: center;
+  }
+  .profile__buttons {
+    display: none;
+  }
+}
 [class^=profile__buttons] {
   color: #fff;
+}
+
+.profile__buttons__seguir {
+  margin-left: 10px;
 }
 
 .contenedor__nav__lista i {
