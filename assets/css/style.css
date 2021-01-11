@@ -9944,7 +9944,6 @@ body, body * {
 }
 .profile__buttons {
   display: flex;
-  align-content: center;
   align-items: center;
 }
 
@@ -9997,7 +9996,7 @@ body, body * {
 .profile__perfil__nombres {
   padding-left: 20px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
 }
 .profile__perfil__nombres h2 {
