@@ -9875,6 +9875,10 @@ h3 {
     border-color: #dee2e6;
   }
 }
+body * {
+  font-family: "Roboto", sans-serif;
+}
+
 body, body * {
   padding: 0;
   margin: 0;
@@ -9903,6 +9907,11 @@ body, body * {
   background-size: cover;
 }
 
+@media (max-width: 576px) {
+  .contenedor__header {
+    height: 120px;
+  }
+}
 .contenedor__main h3 {
   margin-bottom: 20px;
 }

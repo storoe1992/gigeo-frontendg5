@@ -7,3 +7,9 @@
     background-size: cover;
   }
 }
+
+@media (max-width : 576px){
+  .contenedor__header{
+    height: 120px;
+  }
+}
